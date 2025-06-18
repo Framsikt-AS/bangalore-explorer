@@ -1,0 +1,32 @@
+{
+  "name": "bangalore-explorer",
+  "version": "1.0.0",
+  "description": "An Angular application about Bangalore",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "keywords": ["bangalore", "tourism", "history", "culture", "places"],
+  "author": "Framsikt-AS",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^20.0.3",
+    "@angular/compiler": "^20.0.3",
+    "@angular/core": "^20.0.3",
+    "@angular/forms": "^20.0.3",
+    "@angular/platform-browser": "^20.0.3",
+    "@angular/platform-browser-dynamic": "^20.0.3",
+    "@angular/router": "^20.0.3",
+    "rxjs": "^7.8.2",
+    "zone.js": "^0.15.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^20.0.3",
+    "@angular/compiler-cli": "^20.0.3",
+    "typescript": "^5.8.3"
+  }
+}
