@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm: start",
+      "type": "shell",
+      "command": "npx ng serve",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "isBackground": true
+    },
+    {
+      "label": "npm: build",
+      "type": "shell",
+      "command": "npx ng build",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "npm: test",
+      "type": "shell",
+      "command": "npx ng test",
+      "problemMatcher": [],
+      "group": "test"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<header>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a routerLink="/">Bangalore Explorer</a>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/history" routerLinkActive="active">History</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/places" routerLinkActive="active">Places to Visit</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/culture" routerLinkActive="active">Culture</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Bangalore Explorer by Framsikt-AS. All rights reserved.</p>
+  </div>
+</footer>
