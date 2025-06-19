@@ -1,35 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   template: `
-    <div style="text-align:center" class="content">
-      <h1>
-        Welcome to Bangalore Explorer!
-      </h1>
-      <img width="300" alt="Bangalore Image" src="assets/images/image-placeholder.jpg">
-    </div>
-    <div class="content">
-      <h2>Start exploring Bangalore</h2>
-      <p>Discover the Garden City of India</p>
-    </div>
-    <router-outlet></router-outlet>
+    <app-navbar></app-navbar>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+    <app-footer></app-footer>
   `,
   styles: [`
-    .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 20px;
-    }
-    h1 {
-      color: #3f51b5;
-    }
-    h2 {
-      color: #ff4081;
+    main {
+      min-height: 80vh;
     }
   `]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'bangalore-explorer';
+  
+  ngOnInit() {
+    // AOS is initialized directly in index.html
+    // This ensures it's initialized after the DOM is fully loaded
+  }
 }
