@@ -1,5 +1,5 @@
 .places-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/bangalore-places.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/image-placeholder.jpg');
   background-size: cover;
   background-position: center;
   color: white;
@@ -96,6 +96,11 @@
 .place-content h3 {
   color: #1a365d;
   margin-bottom: 10px;
+}
+
+.location-icon {
+  margin-right: 5px;
+  font-size: 16px;
 }
 
 .place-location {
